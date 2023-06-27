@@ -2,7 +2,10 @@
 
 const Main = () => {
   return (
-    <div className=" bg-green-400">Main</div>
+    <div className=" bg-green-400 max-w-full">
+      
+      
+    </div>
   )
 }
 

@@ -6,7 +6,7 @@ import account from "../assets/account.svg";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center px-4 h-14">
+    <div className="flex justify-between items-center px-4 h-14 ">
       <div className=" flex">
         <img src={menu} alt="menu icon" className="w-8" />
         <img src={youtube} alt="youtube icon" className=" w-28 mx-1" />
