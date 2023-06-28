@@ -6,6 +6,9 @@ export default {
       gridTemplateColumns: {
         custom: "250px 1fr",
       },
+      height: {
+        custom: "calc(100vh - 3.5rem)",
+      },
     },
   },
   plugins: [],

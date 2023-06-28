@@ -15,10 +15,10 @@ const Navbar = () => {
       <div className=" flex items-center">
         <input
           type="text"
-          className=" h-6 border px-5 py-4 focus:outline focus:outline-blue-500 rounded-l-2xl w-96 z-10"
+          className=" h-6 border px-5 py-4 focus:outline focus:outline-blue-500 rounded-l-2xl w-40 md:w-48 lg:w-96 z-10"
         />
         <button className="rounded-r-2xl border bg-[#f8f8f8]">
-          <img src={search} alt="search icon" className="py-1 px-4 ]" />
+          <img src={search} alt="search icon" className="py-1 px-4 " />
         </button>
       </div>
 
