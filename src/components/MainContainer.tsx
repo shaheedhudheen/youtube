@@ -1,7 +1,7 @@
 import Topics from "./Topics";
 import VideoCard from "./VideoCard";
 
-const Main = () => {
+const MainContainer = () => {
   return (
     <div className="overflow-x-auto overscroll-contain ">
       <Topics />
@@ -10,4 +10,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default MainContainer;

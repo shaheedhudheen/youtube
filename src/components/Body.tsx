@@ -1,5 +1,5 @@
 import Sidebar from "./Sidebar";
-import Main from "./Main";
+import Main from "./MainContainer";
 
 const Body = () => {
   return (

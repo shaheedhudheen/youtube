@@ -21,9 +21,9 @@ const Topics = () => {
 
   return (
     <div className=" grid grid-flow-col overflow-x-auto  gap-2">
-      {topics.map((item) => {
+      {topics.map((item, index) => {
         return (
-          <p className="bg-[#0000000d] h-8 rounded-lg px-4 inline-flex items-center cursor-pointer  whitespace-nowrap">
+          <p key={index} className="bg-[#0000000d] h-8 rounded-lg px-4 inline-flex items-center cursor-pointer  whitespace-nowrap">
             {item}
           </p>
         );
